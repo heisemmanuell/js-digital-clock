@@ -1,0 +1,75 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/bg.avif);
+}
+
+#myH1{
+  font-size: 4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: hsl(0, 0%, 100%);
+  /* padding-bottom: 100px; */
+  padding-top: 8rem;
+}
+
+#container{
+  display: flex;
+  max-width: 80vw;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  border-radius: 3em;
+  backdrop-filter: blur(10px);
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+#display{
+  font-size: 4em;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+
+#controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.7em 1em;
+  margin: 0.3em;
+  border: none;
+  border-radius: 0.6em;
+  cursor: pointer;
+  color: white;
+  /* background-color: black; */
+  transition: background-color 0.5s ease;
+}
+
+#backBtn{
+  background-color: black;
+}
+
+#startBtn{
+  background-color: hsl(115, 100%, 40%);
+}
+
+#startBtn:hover{
+  background-color: hsl(115, 100%, 30%);
+}
+
+#stopBtn{
+  background-color: hsl(10, 90%, 50%);
+}
+
+#stopBtn:hover{
+  background-color: hsl(10, 90%, 40%);
+}
+
+#resetBtn{
+  background-color: hsl(205, 90%, 60%);
+}
+
+#resetBtn:hover{
+  background-color: hsl(205, 90%, 50%);
+}
